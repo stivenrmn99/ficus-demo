@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explora Ficus Hotel & Gym: demostración interactiva con perfiles de cliente, recepción, coach y administración. Todos los datos son ficticios.">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://images.unsplash.com; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<title>Ficus · Hotel & Gym · Demo</title>
+<link rel="stylesheet" href="./demo.css"><script type="module" src="./demo.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+<div class="demo-bar"><span><i></i><strong>DEMO INTERACTIVA</strong><span class="demo-note">Datos ficticios · sin pagos ni reservas reales</span></span><div><label for="profile">Explorar como</label><select id="profile"><option value="visitante">Visitante</option><option value="client">Cliente</option><option value="receptionist">Recepcionista</option><option value="coach">Coach</option><option value="admin">Administrador</option></select><button id="reset" class="reset">Reiniciar demo ↻</button></div></div>
+<div id="app"></div>
+<dialog id="modal"><div class="modal-top"><span id="modal-label">Ficus · Demo</span><button id="close" class="icon-button" aria-label="Cerrar">×</button></div><div id="modal-content"></div></dialog>
+<div id="toast" role="status" hidden></div>
+<noscript>Activa JavaScript para explorar esta demostración. No se requiere una cuenta.</noscript>
+</body></html>
